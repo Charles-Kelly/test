@@ -2,17 +2,6 @@
    "onboarding": false,
    "requireConfig": false,
    "repositories": ["Charles-Kelly/test"],
-   "enabledManagers": ["github-actions","regex"],
-   "regexManagers": [
-      {
-         "fileMatch":[
-            "package.json"
-         ],
-         "matchStrings":[
-            "\"operatorVersion\": \"(?<currentValue>[0-9.]+)\""
-         ],
-         "datasourceTemplate":"github-releases",
-         "depNameTemplate":"prometheus-operator/prometheus-operator"
-      }
+   "enabledManagers": ["github-actions","regex"]
    ]
 }
