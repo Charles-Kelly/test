@@ -1,4 +1,7 @@
 {
+   "extends": [
+      "config:base"
+   ],
    "username":"renovate-release",
    "gitAuthor":"Renovate Bot <bot@renovateapp.com>",
    "onboarding":false,
