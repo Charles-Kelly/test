@@ -1,6 +1,7 @@
 {
    "repositories": ["Charles-Kelly/test"],
-   "regexManagers":[
+   "enabledManagers": ["github-actions","regex"],
+   "regexManagers": [
       {
          "fileMatch":[
             "package.json"
