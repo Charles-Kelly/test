@@ -1,13 +1,14 @@
 {
-  "dryRun": "full",
-  "username": "renovate-release",
-  "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
-  "onboarding": false,
-  "platform": "github",
-  "includeForks": true,
-  "repositories": [
-    "Charles-Kelly/test",
-  ],
-  "packageRules": [
-  ]
+   "dryRun":"full",
+   "username":"renovate-release",
+   "gitAuthor":"Renovate Bot <bot@renovateapp.com>",
+   "onboarding":false,
+   "platform":"github",
+   "forkProcessing":"enabled",
+   "repositories":[
+      "Charles-Kelly/test"
+   ],
+   "packageRules":[
+      
+   ]
 }
