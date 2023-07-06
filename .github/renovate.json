@@ -9,14 +9,16 @@
       "npm",
       "regex"
    ],
-   "regexManagers":{
-      "fileMatch":[
-         "package.json"
-      ],
-      "matchStrings":[
-         "tanium-alpine"
-      ],
-      "datasourceTemplate":"github-releases",
-      "depNameTemplate":"prometheus-operator/prometheus-operator"
-   }
+   "regexManagers":[
+      {
+         "fileMatch":[
+            "package.json"
+         ],
+         "matchStrings":[
+            "tanium-alpine"
+         ],
+         "datasourceTemplate":"github-releases",
+         "depNameTemplate":"prometheus-operator/prometheus-operator"
+      }
+   ]
 }
