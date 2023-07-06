@@ -1,5 +1,5 @@
-"repositories": ["Charles-Kelly/test"],
 {
+   "repositories": ["Charles-Kelly/test"],
    "regexManagers":[
       {
          "fileMatch":[
