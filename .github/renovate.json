@@ -15,7 +15,7 @@
             "package.json"
          ],
          "matchStrings":[
-            "tanium-alpine"
+            '"operatorVersion": "(?<currentValue>[0-9.]+)"'
          ],
          "datasourceTemplate":"github-releases",
          "depNameTemplate":"prometheus-operator/prometheus-operator"
