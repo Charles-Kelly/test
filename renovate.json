@@ -8,6 +8,13 @@
       "Charles-Kelly/test"
    ],
    "enabledManagers": ["regex"],
+   "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchPackagePatterns": ["*"],
+      "enabled": false
+    }
+  ],
    "regexManagers":[
       {
          "fileMatch":[
