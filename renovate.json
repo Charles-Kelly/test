@@ -1,6 +1,0 @@
-{
-   "onboarding": false,
-   "requireConfig": false,
-   "repositories": ["Charles-Kelly/test"],
-   "enabledManagers": ["github-actions","regex"]
-}
