@@ -1,23 +1,4 @@
 {
-   "extends": [
-      "config:base"
-   ],
-   "username":"renovate-release",
-   "gitAuthor":"Renovate Bot <bot@renovateapp.com>",
-   "onboarding":false,
-   "platform":"github",
-   "forkProcessing":"enabled",
-   "repositories":[
-      "Charles-Kelly/test"
-   ],
-   "enabledManagers": ["regex"],
-   "packageRules": [
-    {
-      "matchUpdateTypes": ["minor", "patch"],
-      "matchPackagePatterns": ["*"],
-      "enabled": false
-    }
-  ],
    "regexManagers":[
       {
          "fileMatch":[
