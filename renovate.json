@@ -8,9 +8,6 @@
       "Charles-Kelly/test"
    ],
    "enabledManagers": ["regex"],
-   "packageRules":[
-      
-   ],
    "regexManagers":[
       {
          "fileMatch":[
