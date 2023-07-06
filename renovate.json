@@ -7,7 +7,7 @@
    "repositories":[
       "Charles-Kelly/test"
    ],
-   "enabledManagers: ["regex"],
+   "enabledManagers": ["regex"],
    "packageRules":[
       
    ],
