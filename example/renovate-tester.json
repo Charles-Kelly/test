@@ -1,6 +1,6 @@
 {
    "onboarding": false,
-   "requireConfig": false,
+   "platform": "github",
+   "logLevel": "info",
    "repositories": ["Charles-Kelly/test"],
-   "enabledManagers": ["github-actions","regex"]
 }
