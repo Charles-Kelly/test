@@ -18,7 +18,8 @@
             "\"operatorVersion\": \"(?<currentValue>[0-9.]+)\""
          ],
          "datasourceTemplate":"github-releases",
-         "depNameTemplate":"prometheus-operator/prometheus-operator"
+         "depNameTemplate":"prometheus-operator/prometheus-operator",
+         "versioning": "regex:^v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)"
       }
    ]
 }
