@@ -19,7 +19,7 @@
          ],
          "datasourceTemplate":"github-releases",
          "depNameTemplate":"prometheus-operator/prometheus-operator",
-         "extractVersionTemplate": "regex:^v(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)?$"
+         "extractVersionTemplate": "^v?(?<version>.*?)$"
       }
    ]
 }
