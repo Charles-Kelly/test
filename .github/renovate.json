@@ -19,7 +19,7 @@
          ],
          "datasourceTemplate":"github-releases",
          "depNameTemplate":"prometheus-operator/prometheus-operator",
-         "versioningTemplate":"npm"
+         "versioningTemplate":"node"
       }
    ]
 }
