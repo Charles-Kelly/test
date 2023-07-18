@@ -28,8 +28,7 @@
             "\"operatorVersion\": \"(?<currentValue>[0-9.]+)\""
          ],
          "datasourceTemplate":"github-releases",
-         "depNameTemplate":"prometheus-operator/prometheus-operator",
-         "extractVersionTemplate": "^v?(?<version>.*?)$"
+         "depNameTemplate":"kiwigrid/k8s-sidecar"
       }
    ]
 }
