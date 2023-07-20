@@ -22,7 +22,8 @@
          "groupSlug": "node-exporter-source",
          "matchManagers": ["regex"],
          "matchDatasources": ["github-releases"],
-         "matchPackageNames": ["prometheus/node_exporter"]
+         "matchPackageNames": ["prometheus/node_exporter"],
+         "extractVersion": "^v(?<version>.*)$"
       }
    ],
    "regexManagers":[
@@ -41,7 +42,7 @@
             "package.json"
          ],
          "matchStrings":[
-            "\"exporterVersion\": \"v(?<currentValue>[0-9.]+)\""
+            "\"exporterVersion\": \"(?v<currentValue>[0-9.]+)\""
          ],
          "datasourceTemplate":"github-releases",
          "depNameTemplate":"prometheus/node_exporter"
