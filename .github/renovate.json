@@ -41,7 +41,7 @@
             "package.json"
          ],
          "matchStrings":[
-            "\"exporterVersion\": \"(?<currentValue>[0-9.]+)\""
+            "\"exporterVersion\": \"^v(?<currentValue>[0-9.]+)?\""
          ],
          "datasourceTemplate":"github-releases",
          "depNameTemplate":"prometheus/node_exporter"
