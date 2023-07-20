@@ -2,7 +2,7 @@
   "name": "test",
   "version": "1.0.0",
   "config": {
-    "operatorVersion": "0.63.0",
+    "operatorVersion": "1.25.0",
     "exporterVersion": "0.63.0",
     "prometheusVersion": "0.0.1"
   }
