@@ -48,7 +48,7 @@
             "package.json"
          ],
          "matchStrings":[
-            "\"operatorVersion\": \"(?<currentValue>[0-9.]+)\""
+            "\"sidecarVersion\": \"(?<currentValue>[0-9.]+)\""
          ],
          "datasourceTemplate":"github-releases",
          "depNameTemplate":"kiwigrid/k8s-sidecar"
