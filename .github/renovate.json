@@ -24,6 +24,14 @@
          "matchDatasources": ["github-releases"],
          "matchPackageNames": ["prometheus/node_exporter"],
          "extractVersion": "^v(?<version>.*)$"
+      },
+      {
+         "groupName": "prometheus",
+         "groupSlug": "prometheus",
+         "matchManagers": ["regex"],
+         "matchDatasources": ["github-releases"],
+         "matchPackageNames": ["prometheus/prometheus"],
+         "extractVersion": "^v(?<version>.*)$"
       }
    ],
    "regexManagers":[
@@ -46,6 +54,16 @@
          ],
          "datasourceTemplate":"github-releases",
          "depNameTemplate":"prometheus/node_exporter"
+      },
+      {
+         "fileMatch":[
+            "package.json"
+         ],
+         "matchStrings":[
+            "\"prometheusVersion\": \"(?<currentValue>[0-9.]+)\""
+         ],
+         "datasourceTemplate":"github-releases",
+         "depNameTemplate":"prometheus/prometheus"
       }
    ]
 }
