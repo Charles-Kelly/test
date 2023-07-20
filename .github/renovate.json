@@ -32,6 +32,14 @@
          "matchDatasources": ["github-releases"],
          "matchPackageNames": ["prometheus/prometheus"],
          "extractVersion": "^v(?<version>.*)$"
+      },
+      {
+         "groupName": "prometheus operator source",
+         "groupSlug": "prometheus-operator-source",
+         "matchManagers": ["regex"],
+         "matchDatasources": ["github-releases"],
+         "matchPackageNames": ["prometheus-operator/prometheus-operator"],
+         "extractVersion": "^v(?<version>.*)$"
       }
    ],
    "regexManagers":[
@@ -64,6 +72,16 @@
          ],
          "datasourceTemplate":"github-releases",
          "depNameTemplate":"prometheus/prometheus"
+      },
+      {
+         "fileMatch":[
+            "package.json"
+         ],
+         "matchStrings":[
+            "\"operatorVersion\": \"(?<currentValue>[0-9.]+)\""
+         ],
+         "datasourceTemplate":"github-releases",
+         "depNameTemplate":"prometheus-operator/prometheus-operator"
       }
    ]
 }
