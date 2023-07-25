@@ -5,6 +5,6 @@
     "sidecarVersion" : "0.0.1"
     "operatorVersion": "0.0.1",
     "exporterVersion": "0.0.1",
-    "prometheusVersion": "0.0.1"
+    "prometheusVersion": "2.46.0"
   }
 }
