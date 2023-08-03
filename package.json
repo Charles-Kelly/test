@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "config": {
     "sidecarVersion" : "0.0.1"
-    "operatorVersion": "0.0.1",
+    "operatorVersion": "0.67.1",
     "exporterVersion": "0.0.1",
     "prometheusVersion": "0.0.1"
   }
